@@ -1,0 +1,14 @@
+def find_max_and_min(arr)
+  max_number = arr.max
+  min_number = arr.min
+
+  puts "Maximum is: #{max_number}"
+  puts "Minimum is: #{min_number}"
+end
+
+# Example usage
+arr1 = [1, 2, 3, 4, 5]
+find_max_and_min(arr1)
+
+arr2 = [5, 3, 7, 4, 2]
+find_max_and_min(arr2)
