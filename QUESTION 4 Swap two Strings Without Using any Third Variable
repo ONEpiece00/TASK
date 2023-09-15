@@ -1,0 +1,6 @@
+a = "Hello"
+b = "World"
+
+a, b = b, a
+
+puts "Strings after swap: a = #{a} and b = #{b}"
