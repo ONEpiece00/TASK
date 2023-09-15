@@ -1,0 +1,8 @@
+def count_occurrences(str, target_char)
+  count = str.count(target_char)
+  puts "Count character '#{target_char}' in the given string: #{count}"
+end
+
+# Example usage
+count_occurrences("geeksforgeeks", 'e')
+count_occurrences("abccdefgaa", '3')
