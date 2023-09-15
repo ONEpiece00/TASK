@@ -1,0 +1,11 @@
+def is_palindrome?(str)
+  # Convert the string to lowercase for a case-insensitive check
+  str = str.downcase
+
+  # Reverse the string and compare with the original string
+  str == str.reverse
+end
+
+# Example usage
+puts is_palindrome?("anna")  # Output: true
+puts is_palindrome?("India")  # Output: false
